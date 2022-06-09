@@ -50,7 +50,7 @@ int main()
     temp2 = a2 - lr * sigma(mat, a1, a2 , false);
     a1 = temp1;
     a2 = temp2;
-    printf("Temp parameter: %f,%f\n", a1, a2); 
+    printf("Temp parameter %d: %f,%f\n", i, a1, a2); 
   }
   printf("Final parameter: %f,%f\n", a1, a2); 
   printf("\n-------------------------------------\n\n");
