@@ -40,3 +40,6 @@ We diffrenciate the cost function w.r.t. all the parameters.
 1. `Fraud detection`: Logistic regression methods can assist teams in identifying data abnormalities that suggest fraud. Certain habits or qualities may be more closely associated with fraudulent activity, which can assist banks and other financial organisations safeguard their customers. When undertaking data analysis around company performance, SaaS-based firms have begun to employ these procedures to eradicate false user identities from their datasets.
 2. `Disease Prediction`: This analytics method may be used in medicine to anticipate the risk of sickness or illness in a particular population. Healthcare institutions can set up preventative treatment for those who are predisposed to certain illnesses.
 3. `Churn prediction`: Specific actions in various departments of an organisation may be predictive of churn. Human resources and management teams, for example, may want to know whether there are any high performers inside the firm who are on the verge of leaving; this sort of data may spark talks about issue areas within the company, such as culture or remuneration. Alternatively, the sales organisation may seek to understand which of its clients are considering leaving. This may encourage teams to develop a retention plan in order to minimise revenue loss.
+
+
+### 2. K-MEANS
