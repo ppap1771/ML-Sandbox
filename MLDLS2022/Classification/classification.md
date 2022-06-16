@@ -42,4 +42,21 @@ We diffrenciate the cost function w.r.t. all the parameters.
 3. `Churn prediction`: Specific actions in various departments of an organisation may be predictive of churn. Human resources and management teams, for example, may want to know whether there are any high performers inside the firm who are on the verge of leaving; this sort of data may spark talks about issue areas within the company, such as culture or remuneration. Alternatively, the sales organisation may seek to understand which of its clients are considering leaving. This may encourage teams to develop a retention plan in order to minimise revenue loss.
 
 
-### 2. K-MEANS
+### 2. KNN
+K-Nearest Neighbor is a basic Machine Learning method that uses the Supervised Learning approach.
+The K-NN method assumes similarity between the new case/data and existing cases and places the new case in the category that is most similar to the existing categories.
+The K-NN method maintains all existing data and uses similarity to classify new data points. This implies that when fresh data is generated, it may be quickly categorised into a well-suited category using the K- NN method.
+The K-NN algorithm may be used for both regression and classification, however it is more commonly utilised for classification tasks.
+K-NN is a non-parametric method, which means it makes no assumptions about the underlying data.
+It is also known as a lazy learner algorithm because it does not instantly learn from the training set; instead, it stores the dataset and then takes an action on it during classification.
+During the training phase, the KNN algorithm simply saves the dataset and then classifies it into a category that is quite similar to the incoming data.
+Assume we have a picture of a critter that resembles a cat or a dog and we want to know whether it is a cat or a dog. So, because it operates on a similarity measure, we may utilise the KNN method for this identification. Our KNN model will look for similarities between the new data set and the photographs of cats and dogs and place it in either category depending on the most comparable attributes.
+
+`The following algorithm can be used to describe how K-NN works:`
+
+Step 1: Determine the number K of neighbours.
+Step 2: Determine the Euclidean distance between K neighbours.
+Step 3: Determine the K closest neighbours based on the estimated Euclidean distance.
+Step 4: Count the number of data points in each category among these k neighbours.
+Step 5: Assign the new data points to the category with the greatest number of neighbours.
+Step 6: Our model is complete.
