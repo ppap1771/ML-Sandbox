@@ -59,4 +59,32 @@ Step 2: Determine the Euclidean distance between K neighbours.
 Step 3: Determine the K closest neighbours based on the estimated Euclidean distance.
 Step 4: Count the number of data points in each category among these k neighbours.
 Step 5: Assign the new data points to the category with the greatest number of neighbours.
-Step 6: Our model is complete.
+Our model is complete.
+
+### 3.Decision tree 
+Decision Tree is a Supervised learning approach that may be used to solve classification and regression issues, however it is most commonly used to solve classification problems. It is a tree-structured classifier, with internal nodes representing dataset attributes, branches representing decision rules, and each leaf node representing the conclusion.
+There are two nodes in a Decision tree: the Decision Node and the Leaf Node. Choice nodes are used to make any decision and have several branches, whereas Leaf nodes are the result of such decisions and do not have any more branches.
+The judgments or tests are based on the attributes of the provided dataset.
+It is a graphical depiction of all possible solutions to a problem/decision given certain parameters.
+It is named a decision tree because, like a tree, it begins with the root node and then branches out to form a tree-like structure.
+The CART algorithm, which stands for Classification and Regression Tree algorithm, is used to form a tree.
+A decision tree simply asks a question and divides the tree into subtrees based on the answer (Yes/No).
+
+ALGORITHM:
+Step 1: Begin the tree with the root node, which includes the whole dataset, explains S.
+Step 2: Using the Attribute Selection Measure, find the best attribute in the dataset (ASM).
+Step 3: Subdivide the S into subsets containing potential values for the best qualities.
+Step 4: Create the decision tree node with the best attribute.
+Step 5: Create new decision trees recursively using the subsets of the dataset obtained in step 3. Continue this procedure until you reach a point where you can no longer categorise the nodes and refer to the last node as a leaf node.
+
+### 4.Random Forest
+Random Forest is a well-known machine learning algorithm from the supervised learning approach. It may be applied to both classification and regression issues in machine learning. It is built on the notion of ensemble learning, which is a method that involves integrating several classifiers to solve a complicated issue and enhance the model's performance.
+
+"Random Forest is a classifier that comprises a number of decision trees on various subsets of the provided dataset and takes the average to enhance the predicted accuracy of that dataset," as the name implies. Instead than depending on a single decision tree, the random forest collects the forecasts from each tree and predicts the final output based on the majority vote of predictions.
+
+The steps and graphic below illustrate the working process:
+Step 1: Choose K data points at random from the training set.
+Step 2: Create decision trees for the specified data points (Subsets).
+Step 3: Determine the number N for the number of decision trees you wish to construct.
+Step 4: Reverse steps 1 and 2.
+Step 5: Find the forecasts of each decision tree for new data points and allocate the new data points to the category with the most votes.
